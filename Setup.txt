@@ -1,0 +1,14 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="text_emotion_detection",
+    version="1.0",
+    packages=find_packages(),
+    install_requires=[
+        "joblib==1.3.2",
+        "scikit-learn==1.3.0",
+        "streamlit==1.43.2",
+        "pandas==2.2.3",
+        "numpy==2.2.4",
+    ],
+)
